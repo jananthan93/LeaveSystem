@@ -14,7 +14,7 @@ import javax.persistence.Table;
 import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
-@Table(name = "user", schema = "employee")
+@Table(name = "user", schema = "login")
 public class User implements Serializable {
 
 	private static final long serialVersionUID = 8918656601415434315L;
