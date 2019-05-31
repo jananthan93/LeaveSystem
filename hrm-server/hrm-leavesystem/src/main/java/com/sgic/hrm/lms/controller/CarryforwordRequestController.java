@@ -22,7 +22,7 @@ import com.sgic.hrm.commons.entity.mapper.CarryforwardRequestToCarryforwardReque
 import com.sgic.hrm.commons.enums.Status;
 import com.sgic.hrm.lms.service.CarryforwardRequestService;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/carryforwardrequest")
 public class CarryforwordRequestController {

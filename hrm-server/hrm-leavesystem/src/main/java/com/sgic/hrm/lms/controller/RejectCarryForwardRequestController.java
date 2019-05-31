@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sgic.hrm.commons.entity.RejectCarryforwardRequest;
 import com.sgic.hrm.lms.service.RejectCarryforwardRequestService;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/rejectCarry")
 public class RejectCarryForwardRequestController {

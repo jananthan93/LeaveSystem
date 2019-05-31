@@ -23,7 +23,7 @@ import com.sgic.hrm.commons.entity.mapper.LeaveRequestToLeaveRequestData;
 import com.sgic.hrm.commons.enums.Status;
 import com.sgic.hrm.lms.service.LeaveRequestService;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/leaverequest")
 public class LeaveRequestController {

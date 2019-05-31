@@ -23,7 +23,7 @@ import com.sgic.hrm.lms.service.LeaveAllocationService;
 import com.sgic.hrm.lms.service.LeaveTypeService;
 import com.sgic.hrm.lms.service.LoginService;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/leaveallocation")
 public class LeaveAllocationController {

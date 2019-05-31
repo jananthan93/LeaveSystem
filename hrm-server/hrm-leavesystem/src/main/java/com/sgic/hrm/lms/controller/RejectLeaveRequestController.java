@@ -10,7 +10,7 @@ import com.sgic.hrm.commons.dto.RejectLeaveRequestData;
 import com.sgic.hrm.commons.entity.mapper.RejectLeaveRequestToRejectLeaveRequestData;
 import com.sgic.hrm.lms.service.RejectLeaveRequestService;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/reject")
 @RestController
 public class RejectLeaveRequestController {

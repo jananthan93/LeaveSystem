@@ -14,7 +14,7 @@ import com.sgic.hrm.commons.dto.ResizableData;
 import com.sgic.hrm.commons.dto.mapper.ResizableDataToResizable;
 import com.sgic.hrm.commons.entity.mapper.ResizableToResizableData;
 import com.sgic.hrm.lms.service.ResizableService;
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 public class ResizableController {
 	@Autowired

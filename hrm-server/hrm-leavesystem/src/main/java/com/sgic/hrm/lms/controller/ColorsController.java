@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sgic.hrm.commons.dto.ColorsData;
 import com.sgic.hrm.commons.entity.mapper.ColorsToColorsData;
 import com.sgic.hrm.lms.service.ColorsService;
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 public class ColorsController {
 	@Autowired

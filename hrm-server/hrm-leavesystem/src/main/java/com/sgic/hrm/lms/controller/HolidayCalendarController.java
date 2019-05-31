@@ -19,7 +19,7 @@ import com.sgic.hrm.commons.entity.HolidayCalendar;
 import com.sgic.hrm.commons.entity.mapper.HolidayCalendarToHolidayCalendarData;
 import com.sgic.hrm.lms.service.HolidayCalendarService;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/holidaycalendar")
 public class HolidayCalendarController {
