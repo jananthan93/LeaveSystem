@@ -24,7 +24,7 @@ import com.sgic.hrm.lms.service.CancelLeaveRequestService;
  *
  */
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/cancel")
 public class CancelLeaveRequestController {
