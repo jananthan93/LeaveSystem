@@ -18,7 +18,7 @@ import com.sgic.hrm.commons.dto.mapper.LeaveTypeDataToLeaveType;
 import com.sgic.hrm.commons.entity.mapper.LeaveTypeToLeaveTypeData;
 import com.sgic.hrm.lms.service.LeaveTypeService;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
 @RestController
 @RequestMapping("/leavetype")
 public class LeaveTypeController {
